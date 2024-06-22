@@ -1,0 +1,238 @@
+body {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 810px) {
+    body {
+        padding: 0 2rem;
+    }
+    .card{
+        margin-bottom: 1rem;
+    }
+}
+
+.h1{
+    font-weight: 400;
+    font-size: 10rem;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
+}
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+.hero-section{
+    padding: 4rem 0;
+}
+
+.details{
+    display: flex;
+    align-items: end;
+    padding-bottom: 1rem;
+    justify-content: end;
+}
+.details p {
+    font-size: 24px;
+    font-weight:500;
+    width: 70%;    
+}
+
+.info-section {
+    padding-top: 5rem;
+}
+.info p {
+    width: 80%;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.Contact-info h2 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    color: #828282;
+    border-bottom: 1px solid #828282;
+
+}
+.Contact-info ul  {
+    padding: 0 !important;
+}
+.Contact-info ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2.5rem;
+    list-style: none;
+}
+
+.help-section{
+    padding: 4rem 0;
+}
+
+.help-section .container-fluid h2{
+ font-size: 44px;
+ font-weight: 500;
+ padding-bottom: 1rem;
+}
+
+.info-btn{
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: black;
+    color:#ffff ;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card {
+    padding: 0  18px;
+    border: 1px solid #D2D1D1;
+    border-width: 0 0 0 1px;
+    border-radius: 0;
+}
+
+.card  .card-no{
+padding-bottom: 2rem;
+font-size: 44px;
+font-weight: 500;
+color: #D2D1D1;
+}
+
+.skill-fontstyle h2 {
+    font-size: 44px;
+    font-weight: 500;
+}.skill-fontstyle p{
+    font-size: 24px;
+    font-weight: 500;
+} 
+.fontstyle h2{
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.fontstyle p , .fontstyle {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.skills-section {
+    padding: 4rem 0;
+    
+}
+.count {
+    font-size: 34px;
+    font-weight: 500;
+
+
+}
+.bg-img{
+    background-image: url(skills.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center bottom;
+}
+
+
+
+.container {
+    display: flex;
+}
+
+.left-column {
+    
+    padding: 40px 20px 40px 0; 
+
+}
+
+.left-column h2 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 69%;
+
+}
+
+.left-column p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.right-column {
+
+    padding: 40px 0 40px 20px;
+}
+
+.item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.header span:last-child {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+footer{
+padding: 4rem 0 1rem 0;
+}
+.footer-fontstyle{
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+
+
+.btn-position{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.copywrite{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.pt{
+    padding-top: 3rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-links li {
+    list-style: none;
+}
+
+.footer-links li a {
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+ font-weight: 500;   
+}
