@@ -1,7 +1,0 @@
-learn how to setup server in express 
-crate routes  get , post
-send some data through get routes to browser
-send some data through post routes from postman 
-
-next from 25:50 how add the user to mock database 
- 

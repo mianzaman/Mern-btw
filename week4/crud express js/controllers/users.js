@@ -19,7 +19,7 @@ export const createUser=(req, res) => {
 }
 
 
-export const getUser = (req, res) => {
+export const getUserId = (req, res) => {
     console.log("get id  req reached");
     // res.send("get id req reached");
     // {id} means we are destructuring id from the request parameters
@@ -34,7 +34,7 @@ export const deleteUser  =  (req, res) => {
     res.send(`User with the id ${id} deleted from the database.`);
 }
 
-export const updateUser =  (req, res) => {
+export const updateUserId =  (req, res) => {
     // console.log("patch req reached");
     const { id } = req.params;
     const { firstName, lastName, age } = req.body;

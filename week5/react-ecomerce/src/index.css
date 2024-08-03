@@ -1,0 +1,25 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  /* background: rgb(30,30,30); */
+  color: black;
+  overflow: hidden;
+  overflow-y: auto;
+  
+}
+
+.main-padding {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0px auto;
+}

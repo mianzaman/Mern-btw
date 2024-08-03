@@ -1,5 +1,5 @@
 import express from 'express';
-import { getUsers, createUser, getUser, deleteUser, updateUser } from '../controllers/users.js';
+import { getUsers, createUser, getUserId, deleteUser, updateUserId } from '../controllers/users.js';
 const router = express.Router();
 
 
@@ -10,7 +10,7 @@ router.get('/', getUsers);
 router.post('/', createUser );
 
 // route for getting a specific user with id 
-router.get('/:id', getUser );
+router.get('/:id', getUserId );
 
 
 // route for deleting a user with id
@@ -18,7 +18,7 @@ router.delete('/:id', deleteUser );
 
 
 // route for updating a user with id
-router.patch('/:id',updateUser);
+router.patch('/:id',updateUserId);
 
  
 export default router; 
